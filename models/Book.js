@@ -1,8 +1,9 @@
 var mongoose = require('mongoose');
 
-var schema = new mongoose.Schema ({
+
+var schema = new mongoose.Schema({
   title: { type: String, maxlength: 120, required: true },
-  author: { type: String, maxlength: 80 },
+  author: {type: mongoose.Schema.Types.ObjectId, ref: 'Author'},
   genre: {
     type: String,
     lowercase: true,

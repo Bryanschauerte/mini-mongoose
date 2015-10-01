@@ -1,33 +1,58 @@
-// This is dummy data you can use for your app.
+// This is dummy data you can use for your app.560d700ba1b8084495243b31
 
 {
   "books": [{
     "title": "code words and stuff",
-    "author": "Master Splinter",
+    "author": {
+      "name":"Master Splinter",
+      "country" : "sewer nation",
+      "degree" : "black belt",
+      "birth_year" : 1960
+      },
     "genre": "how-to",
     "pages": 2,
     "checked_out": false
   },{
     "title": "Homer Simpson: A Tale Of American Awesomeness",
-    "author": "Hulk Hogan",
+    "author": {
+      "name":"Hulk Hogan",
+      "country" : "Merica",
+      "degree" : "elementry",
+      "birth_year" : 1955
+      },
     "genre": "biography",
     "pages": 1452,
     "checked_out": false
   },{
     "title": "Rick and Morty",
-    "author": "Dan Harmon",
+    "author":{
+      "name":"Dan Harmon",
+      "country" : "Merica",
+      "degree" : "BA",
+      "birth_year" : 1955
+      },
     "genre": "unknown",
     "pages": 54385,
     "checked_out": false
   },{
     "title": "the space bar and you",
-    "author": "the greatest generation",
+    "author": {
+      "name":"the greatest generation",
+      "country" : "space",
+      "degree" : "BA",
+      "birth_year" : 1950
+      },
     "genre": "how-to",
     "pages": 1944,
     "checked_out": false
   },{
     "title": "How To Frolick",
-    "author": "Richard Simmons",
+    "author": {
+      "name":"Richard Simmons",
+      "country" : "America",
+      "degree" : "BA",
+      "birth_year" : 1940
+      },
     "genre": "how-to",
     "pages": 420,
     "checked_out": true
